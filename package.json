@@ -13,12 +13,17 @@
     "client:dev": "cd client && npm run dev",
     "build": "cd server && npm run build",
     "seed": "cd server && npm run seed",
-    "render-build": "npm install && npm run build"
+    "render-build": "npm install && npm run build",
+    "test": "cypress run",
+    "test:e2e": "cypress run --e2e",
+    "test:component": "cypress run --component",
+    "cy:open": "cypress open"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@rollup/rollup-win32-x64-msvc": "^4.40.0",
     "@types/react": "^18.3.3",
     "@vitejs/plugin-react": "^4.3.1",
     "concurrently": "^8.2.2",
