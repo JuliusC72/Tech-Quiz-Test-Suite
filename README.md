@@ -22,7 +22,9 @@ npm install
 
 ## Usage
 
+```
 npm run start:dev
+```
 
 ## License
 
