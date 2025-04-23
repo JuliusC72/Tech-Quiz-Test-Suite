@@ -11,6 +11,7 @@ export default defineConfig({
       framework: 'react',
       bundler: 'vite',
     },
+    indexHtmlFile: 'cypress/support/component-index.html',
     supportFile: 'cypress/support/component.ts',
     specPattern: 'cypress/component/**/*.cy.{js,jsx,ts,tsx}'
   },
